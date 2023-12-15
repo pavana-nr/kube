@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: k8s-vishal-bharti-demo
-          image: petclinic_test1 # Image that will be used to containers in the cluster
+          image: e8c7a73504ad # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8001 # The port that the container is running on in the cluster
